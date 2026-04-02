@@ -150,3 +150,19 @@ src/
 5. `docs/ble-architecture.md`
 6. `docs/open-source-disclaimer.md`
 7. `docs/upload-prep-checklist.md`
+
+## 最近更新
+
+- 2026-04-02：补齐模板维护规范（Issue/PR 模板、CHANGELOG）
+
+## 下个版本计划
+
+- 抽离首页/详情页通用骨架组件
+- 完善 `module.config` 驱动字段与示例
+- 收敛 `common/` 兼容层，降低双入口维护成本
+
+## 任务入口
+
+- 功能建议：使用 `Feature request`
+- 缺陷反馈：使用 `Bug report`
+- 代码合并：按 `Pull Request Template` 提交

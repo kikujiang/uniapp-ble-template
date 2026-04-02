@@ -1,0 +1,44 @@
+name: Feature request
+description: 提交新功能或改进建议
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: 模块
+      description: 请选择涉及模块
+      options:
+        - bushuqi
+        - cockroach
+        - core/shared
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景
+      description: 当前缺少什么能力，导致了什么问题？
+      placeholder: 请描述业务背景和痛点
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望方案
+      description: 你希望新增或改进什么？
+      placeholder: 请描述期望的行为或接口
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 这个需求完成后，如何验证通过？
+      placeholder: 列出可执行的验收点
+    validations:
+      required: false
